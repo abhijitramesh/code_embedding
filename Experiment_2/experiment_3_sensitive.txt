@@ -1,0 +1,219 @@
+... 
+...... test.class
+processed 3 methods
+...... test4.class
+processed 5 methods
+...... test2.class
+processed 2 methods
+...... test3.class
+processed 4 methods
+
+test//test.class @ test() vs: 
+     test//test4.class test4() : 0.0
+     test//test2.class public test2() : 0.0
+     test//test3.class test3() : 0.0
+     test//test4.class public java.lang.String m2(java.lang.String, int) : 0.1775141954421997
+     test//test4.class public java.lang.String m3(java.lang.String, int) : 0.18554770946502686
+     test//test3.class public java.lang.String m2(java.lang.String, int) : 0.18554770946502686
+     test//test3.class public int m(int) : 0.2939557731151581
+     test//test4.class public int m(int) : 0.29461246728897095
+     test//test2.class public int n(int) : 0.31612712144851685
+     test//test.class public int m(int) : 0.32232120633125305
+     test//test.class int mn(int) : 0.33680346608161926
+     test//test4.class int mn(int) : 0.33680346608161926
+     test//test3.class int mn(int) : 0.33680346608161926
+
+test//test.class @ int mn(int) vs: 
+     test//test4.class int mn(int) : 0.0
+     test//test3.class int mn(int) : 0.0
+     test//test2.class public int n(int) : 0.05435184761881828
+     test//test4.class public int m(int) : 0.0925845205783844
+     test//test3.class public int m(int) : 0.09381769597530365
+     test//test.class public int m(int) : 0.10424875468015671
+     test//test4.class public java.lang.String m3(java.lang.String, int) : 0.25926223397254944
+     test//test3.class public java.lang.String m2(java.lang.String, int) : 0.25926223397254944
+     test//test4.class public java.lang.String m2(java.lang.String, int) : 0.2732575833797455
+     test//test.class test() : 0.33680346608161926
+     test//test4.class test4() : 0.33680346608161926
+     test//test2.class public test2() : 0.33680346608161926
+     test//test3.class test3() : 0.33680346608161926
+
+test//test.class @ public int m(int) vs: 
+     test//test4.class public int m(int) : 0.041901521384716034
+     test//test3.class public int m(int) : 0.042307015508413315
+     test//test.class int mn(int) : 0.10424875468015671
+     test//test4.class int mn(int) : 0.10424875468015671
+     test//test3.class int mn(int) : 0.10424875468015671
+     test//test2.class public int n(int) : 0.10772926360368729
+     test//test4.class public java.lang.String m3(java.lang.String, int) : 0.2237054705619812
+     test//test3.class public java.lang.String m2(java.lang.String, int) : 0.2237054705619812
+     test//test4.class public java.lang.String m2(java.lang.String, int) : 0.24525928497314453
+     test//test.class test() : 0.32232120633125305
+     test//test4.class test4() : 0.32232120633125305
+     test//test2.class public test2() : 0.32232120633125305
+     test//test3.class test3() : 0.32232120633125305
+
+test//test4.class @ test4() vs: 
+     test//test.class test() : 0.0
+     test//test2.class public test2() : 0.0
+     test//test3.class test3() : 0.0
+     test//test4.class public java.lang.String m2(java.lang.String, int) : 0.1775141954421997
+     test//test4.class public java.lang.String m3(java.lang.String, int) : 0.18554770946502686
+     test//test3.class public java.lang.String m2(java.lang.String, int) : 0.18554770946502686
+     test//test3.class public int m(int) : 0.2939557731151581
+     test//test4.class public int m(int) : 0.29461246728897095
+     test//test2.class public int n(int) : 0.31612712144851685
+     test//test.class public int m(int) : 0.32232120633125305
+     test//test.class int mn(int) : 0.33680346608161926
+     test//test4.class int mn(int) : 0.33680346608161926
+     test//test3.class int mn(int) : 0.33680346608161926
+
+test//test4.class @ int mn(int) vs: 
+     test//test.class int mn(int) : 0.0
+     test//test3.class int mn(int) : 0.0
+     test//test2.class public int n(int) : 0.05435184761881828
+     test//test4.class public int m(int) : 0.0925845205783844
+     test//test3.class public int m(int) : 0.09381769597530365
+     test//test.class public int m(int) : 0.10424875468015671
+     test//test4.class public java.lang.String m3(java.lang.String, int) : 0.25926223397254944
+     test//test3.class public java.lang.String m2(java.lang.String, int) : 0.25926223397254944
+     test//test4.class public java.lang.String m2(java.lang.String, int) : 0.2732575833797455
+     test//test.class test() : 0.33680346608161926
+     test//test4.class test4() : 0.33680346608161926
+     test//test2.class public test2() : 0.33680346608161926
+     test//test3.class test3() : 0.33680346608161926
+
+test//test4.class @ public int m(int) vs: 
+     test//test3.class public int m(int) : 0.0041933199390769005
+     test//test.class public int m(int) : 0.041901521384716034
+     test//test2.class public int n(int) : 0.08872663229703903
+     test//test.class int mn(int) : 0.0925845205783844
+     test//test4.class int mn(int) : 0.0925845205783844
+     test//test3.class int mn(int) : 0.0925845205783844
+     test//test4.class public java.lang.String m3(java.lang.String, int) : 0.20334768295288086
+     test//test3.class public java.lang.String m2(java.lang.String, int) : 0.20334768295288086
+     test//test4.class public java.lang.String m2(java.lang.String, int) : 0.22235582768917084
+     test//test.class test() : 0.29461246728897095
+     test//test4.class test4() : 0.29461246728897095
+     test//test2.class public test2() : 0.29461246728897095
+     test//test3.class test3() : 0.29461246728897095
+
+test//test4.class @ public java.lang.String m2(java.lang.String, int) vs: 
+     test//test4.class public java.lang.String m3(java.lang.String, int) : 0.03527732193470001
+     test//test3.class public java.lang.String m2(java.lang.String, int) : 0.03527732193470001
+     test//test.class test() : 0.1775141954421997
+     test//test4.class test4() : 0.1775141954421997
+     test//test2.class public test2() : 0.1775141954421997
+     test//test3.class test3() : 0.1775141954421997
+     test//test3.class public int m(int) : 0.22166351974010468
+     test//test4.class public int m(int) : 0.22235582768917084
+     test//test.class public int m(int) : 0.24525928497314453
+     test//test2.class public int n(int) : 0.2661002576351166
+     test//test.class int mn(int) : 0.2732575833797455
+     test//test4.class int mn(int) : 0.2732575833797455
+     test//test3.class int mn(int) : 0.2732575833797455
+
+test//test4.class @ public java.lang.String m3(java.lang.String, int) vs: 
+     test//test3.class public java.lang.String m2(java.lang.String, int) : 0.0
+     test//test4.class public java.lang.String m2(java.lang.String, int) : 0.03527732193470001
+     test//test.class test() : 0.18554770946502686
+     test//test4.class test4() : 0.18554770946502686
+     test//test2.class public test2() : 0.18554770946502686
+     test//test3.class test3() : 0.18554770946502686
+     test//test3.class public int m(int) : 0.20238655805587769
+     test//test4.class public int m(int) : 0.20334768295288086
+     test//test.class public int m(int) : 0.2237054705619812
+     test//test2.class public int n(int) : 0.2511119544506073
+     test//test.class int mn(int) : 0.25926223397254944
+     test//test4.class int mn(int) : 0.25926223397254944
+     test//test3.class int mn(int) : 0.25926223397254944
+
+test//test2.class @ public test2() vs: 
+     test//test.class test() : 0.0
+     test//test4.class test4() : 0.0
+     test//test3.class test3() : 0.0
+     test//test4.class public java.lang.String m2(java.lang.String, int) : 0.1775141954421997
+     test//test4.class public java.lang.String m3(java.lang.String, int) : 0.18554770946502686
+     test//test3.class public java.lang.String m2(java.lang.String, int) : 0.18554770946502686
+     test//test3.class public int m(int) : 0.2939557731151581
+     test//test4.class public int m(int) : 0.29461246728897095
+     test//test2.class public int n(int) : 0.31612712144851685
+     test//test.class public int m(int) : 0.32232120633125305
+     test//test.class int mn(int) : 0.33680346608161926
+     test//test4.class int mn(int) : 0.33680346608161926
+     test//test3.class int mn(int) : 0.33680346608161926
+
+test//test2.class @ public int n(int) vs: 
+     test//test.class int mn(int) : 0.05435184761881828
+     test//test4.class int mn(int) : 0.05435184761881828
+     test//test3.class int mn(int) : 0.05435184761881828
+     test//test4.class public int m(int) : 0.08872663229703903
+     test//test3.class public int m(int) : 0.08909754455089569
+     test//test.class public int m(int) : 0.10772926360368729
+     test//test4.class public java.lang.String m3(java.lang.String, int) : 0.2511119544506073
+     test//test3.class public java.lang.String m2(java.lang.String, int) : 0.2511119544506073
+     test//test4.class public java.lang.String m2(java.lang.String, int) : 0.2661002576351166
+     test//test.class test() : 0.31612712144851685
+     test//test4.class test4() : 0.31612712144851685
+     test//test2.class public test2() : 0.31612712144851685
+     test//test3.class test3() : 0.31612712144851685
+
+test//test3.class @ test3() vs: 
+     test//test.class test() : 0.0
+     test//test4.class test4() : 0.0
+     test//test2.class public test2() : 0.0
+     test//test4.class public java.lang.String m2(java.lang.String, int) : 0.1775141954421997
+     test//test4.class public java.lang.String m3(java.lang.String, int) : 0.18554770946502686
+     test//test3.class public java.lang.String m2(java.lang.String, int) : 0.18554770946502686
+     test//test3.class public int m(int) : 0.2939557731151581
+     test//test4.class public int m(int) : 0.29461246728897095
+     test//test2.class public int n(int) : 0.31612712144851685
+     test//test.class public int m(int) : 0.32232120633125305
+     test//test.class int mn(int) : 0.33680346608161926
+     test//test4.class int mn(int) : 0.33680346608161926
+     test//test3.class int mn(int) : 0.33680346608161926
+
+test//test3.class @ int mn(int) vs: 
+     test//test.class int mn(int) : 0.0
+     test//test4.class int mn(int) : 0.0
+     test//test2.class public int n(int) : 0.05435184761881828
+     test//test4.class public int m(int) : 0.0925845205783844
+     test//test3.class public int m(int) : 0.09381769597530365
+     test//test.class public int m(int) : 0.10424875468015671
+     test//test4.class public java.lang.String m3(java.lang.String, int) : 0.25926223397254944
+     test//test3.class public java.lang.String m2(java.lang.String, int) : 0.25926223397254944
+     test//test4.class public java.lang.String m2(java.lang.String, int) : 0.2732575833797455
+     test//test.class test() : 0.33680346608161926
+     test//test4.class test4() : 0.33680346608161926
+     test//test2.class public test2() : 0.33680346608161926
+     test//test3.class test3() : 0.33680346608161926
+
+test//test3.class @ public int m(int) vs: 
+     test//test4.class public int m(int) : 0.0041933199390769005
+     test//test.class public int m(int) : 0.042307015508413315
+     test//test2.class public int n(int) : 0.08909754455089569
+     test//test.class int mn(int) : 0.09381769597530365
+     test//test4.class int mn(int) : 0.09381769597530365
+     test//test3.class int mn(int) : 0.09381769597530365
+     test//test4.class public java.lang.String m3(java.lang.String, int) : 0.20238655805587769
+     test//test3.class public java.lang.String m2(java.lang.String, int) : 0.20238655805587769
+     test//test4.class public java.lang.String m2(java.lang.String, int) : 0.22166351974010468
+     test//test.class test() : 0.2939557731151581
+     test//test4.class test4() : 0.2939557731151581
+     test//test2.class public test2() : 0.2939557731151581
+     test//test3.class test3() : 0.2939557731151581
+
+test//test3.class @ public java.lang.String m2(java.lang.String, int) vs: 
+     test//test4.class public java.lang.String m3(java.lang.String, int) : 0.0
+     test//test4.class public java.lang.String m2(java.lang.String, int) : 0.03527732193470001
+     test//test.class test() : 0.18554770946502686
+     test//test4.class test4() : 0.18554770946502686
+     test//test2.class public test2() : 0.18554770946502686
+     test//test3.class test3() : 0.18554770946502686
+     test//test3.class public int m(int) : 0.20238655805587769
+     test//test4.class public int m(int) : 0.20334768295288086
+     test//test.class public int m(int) : 0.2237054705619812
+     test//test2.class public int n(int) : 0.2511119544506073
+     test//test.class int mn(int) : 0.25926223397254944
+     test//test4.class int mn(int) : 0.25926223397254944
+     test//test3.class int mn(int) : 0.25926223397254944
