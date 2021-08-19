@@ -87,6 +87,17 @@ python mtl-trainer.py <path insensitive subseq output path> <path sensitive subs
 ```console
 python compute_nsubseq_emb_similarity.py <folder containing class files> <vec file path>
 ```
+#### Similarity checking with SVD post processing
+
+```console
+python compute_nsubseq_emb_similarity.py <folder containing class files> <vec file path> <scale> SVD <Desired dimensionality of output data>
+```
+
+#### Similarity checking with PCA post processing
+
+```console
+python compute_nsubseq_emb_similarity.py <folder containing class files> <vec file path> <scale> PCA <Desired dimensionality of output data>
+```
 
 
 #### IDF generation:
